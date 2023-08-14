@@ -692,6 +692,7 @@ a:focus .customers-icon {
 
 .telegram-icon {
   fill: var(--primary-background-color);
+  margin-left: 16px;
 }
 /**
  |============================
