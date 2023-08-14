@@ -872,20 +872,15 @@ a:focus .customers-icon {
   margin-right: 8px;
   align-items: center;
   justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.check-icon {
   fill: transparent;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-check:checked + .modal-check-text .check-icon-space {
   border: none;
   background-color: var(--active-link-color);
-}
-.modal-check:checked + .modal-check-text .check-icon {
   fill: var(--accent-background-color);
 }
 
