@@ -796,11 +796,11 @@ a:focus .customers-icon {
 }
 
 .modal-input:focus {
-  border-color: var(--active-link-color);
+  border-color: var(--button-color);
 }
 
 .modal-input:focus + .modal-icon {
-  fill: var(--active-link-color);
+  fill: var(--button-color);
 }
 .modal-icon {
   fill: var(--accent-text-color);
@@ -832,9 +832,11 @@ a:focus .customers-icon {
 }
 
 .modal-coment:focus {
-  border-color: var(--active-link-color);
+  border-color: var(--button-color);
 }
-
+.label-container-comment {
+  margin-bottom: 16px;
+}
 .modal-field {
   margin-bottom: 24px;
 }
@@ -848,13 +850,13 @@ a:focus .customers-icon {
   align-items: center;
 }
 
-.modal-check-text span {
+.check-icon {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
