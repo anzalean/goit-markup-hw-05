@@ -831,7 +831,7 @@ a:focus .customers-icon {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-coment:focus {
+.modal-coment:focus-within {
   border-color: var(--button-color);
 }
 .label-container-comment {
@@ -846,7 +846,6 @@ a:focus .customers-icon {
   line-height: 1.17em; /* 116.667% */
   letter-spacing: 0.48px;
   margin-bottom: 4px;
-  display: flex;
   align-items: center;
 }
 
